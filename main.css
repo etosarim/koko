@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 46px 0 91px;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar ul li a.active {
+    font-weight: 700;
+}
+
+.navbar ul li a {
+    color: #1F1534;
+    font-size: 18px;
+    line-height: 22.59px;
+    font-weight: 400;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.banner__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner__info {
+    max-width: 500px;
+}
+
+.banner__info .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner__info .desc {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.banner__info .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner__info .btn:hover {
+    background-color: #0056b3;
+}
+
+.banner__img img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.services {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.services__content-wrapper {
+    text-align: center;
+}
+
+.servicescontent-wrapper .titlesm {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.servicescontent-wrapper .subtitlesm {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.services__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: calc(33.33333% - 20px);
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.service .subtitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service .desc {
+    font-size: 16px;
+    color: #666;
+}
+
+.services__content-wrapper .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.services__content-wrapper .btn:hover {
+    background-color: #0056b3;
+}
+
+fffff
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+.articles {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.card {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 30%;
+    text-align: start;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+.card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+.view-all {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.view-all:hover {
+    background: #0056b3;
+}
+.footer {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;   
+}
+.footer h3 {
+    margin-bottom: 10px;
+}
+.footer p, .footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+
+
+
